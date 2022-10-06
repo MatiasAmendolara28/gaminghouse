@@ -1,0 +1,102 @@
+/* index */
+html {
+    font-size: 62,5%;
+}
+body {
+    background-image: url(../multimedia/fondogamer.jpg);
+    font-family: 'Bebas Neue', cursive;
+}
+.titulopagina{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    text-align: center;
+    background-color: black;
+
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+
+    border: solid 3px rgb(191, 01, 255);
+}
+.subtitulofoto{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: white;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+    background-color: black;
+    border: solid 1px #0ff;
+}
+.menuprincipal ul li{
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    margin-top: 35px;
+
+    background-color: black;
+    border: solid 2px #0ff;
+    align-items: center;
+
+    margin-right: 75px;
+    padding: 45px;
+    font-size: 25px;
+}
+.bg-negro{
+    background-color: black;
+    border: solid 1px #0ff;
+}
+.navbar-nav{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    --bs-navbar-hover-color: rgb(191, 0, 255);
+    .nav-link{
+        --bs-nav-link-color: white;
+    }
+    .nav-link.active{
+        --bs-navbar-active-color: white;
+    }
+}
+.redessociales{
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-size: 35px;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    text-align: center;
+
+    background-color: black;
+    border: solid 1px #0ff;
+}
+.insta{
+    background-image: url(../multimedia/logo5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-top: 20px;
+    margin-left: 436px;
+
+    width: 250px;
+    height: 250px;
+}
+.copyright{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.derechos{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}

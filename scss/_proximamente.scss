@@ -1,0 +1,64 @@
+/* proximamente */
+body{
+    background-image: url(../multimedia/fondogamer.jpg);
+    font-family: 'Bebas Neue', cursive;;
+}
+.tituloprox{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    background-color: black;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    border: solid 5px #0ff;
+}
+.subtituloprox{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+    background-color: black;
+    border: solid 1px rgb(191, 0, 255);
+
+    transition: all 2s;
+}
+.subtituloprox:hover{
+    font-size: 50px;
+    border: solid 2px #0ff;
+}
+.img-fluid{
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+.accordion-button{
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+.accordion-item {
+    color: white;
+    background-color:black;
+    border: solid 1px rgb(191, 0, 255);
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-btn-focus-box-shadow: rgb(191, 0 ,255);
+    --bs-accordion-btn-active-icon: black;
+    --bs-accordion-btn-icon: white;
+}
+.derechos{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}

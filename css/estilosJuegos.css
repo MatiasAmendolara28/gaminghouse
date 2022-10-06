@@ -1,0 +1,218 @@
+body{
+    background-image: url(../multimedia/fondogamer.jpg);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titulojuegos {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    background-color: black;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    border: solid 5px #0ff;
+}
+
+.btn-primary {
+    --bs-btn-color:white;
+    --bs-btn-bg: black; 
+    --bs-btn-border-color: rgb(191, 0, 255);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: rgb(191, 0, 255);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: rgb(191, 0, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: black;
+    --bs-btn-disabled-border-color: rgb(191, 0, 255);
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    --bs-dropdown-color: white;
+    --bs-dropdown-bg: black;
+    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-hover-color: #1e2125;
+    --bs-dropdown-link-hover-bg: white;
+    --bs-dropdown-link-active-color: black;
+    --bs-dropdown-link-active-bg: #0ff;
+}
+
+.subtitulojuegos{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+    background-color: black;
+    border: solid 1px #0ff;
+}
+
+.card{
+    --bs-card-bg: black;
+    --bs-card-color: white;
+
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.juegos-de-pago{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+    background-color: black;
+    border: solid 1px rgb(191, 0, 255);
+}
+
+.body_juegos{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-areas:"main main main"
+                        "footer footer footer";
+}
+
+.body_juegos > main {
+    grid-area: main;
+}
+
+.body_juegos > footer {
+    grid-area: footer;
+}
+
+.derechos{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:500px){
+    .body_juegos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    }
+    .titulojuegos {
+        color: white;
+        font-size: 90px;
+        text-align: center;
+        background-color: black;
+
+        margin-right: 20px;
+        margin-left: 20px;
+
+        border: solid 5px #0ff;
+    }
+    .subtitulojuegos{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+
+        background-color: black;
+        border: solid 1px rgb(191, 0, 255);
+    }
+    .rocketleague{
+        background-image: url(../multimedia/rocketleague.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        height: 300px;
+        width: 300px;
+
+        margin-top: -25px;
+        margin-left: 50px;
+
+        display: inline-block;
+    }
+    .pubg{
+        background-image: url(../multimedia/PUBG.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        height: 300px;
+        width: 300px;
+
+        margin-top: -30px;
+        margin-left: 50px;
+
+        display: inline-block;
+    }
+    .fortnite{
+        background-image: url(../multimedia/Fortnite.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        height: 300px;
+        width: 300px;
+
+        margin-top: -30px;
+        margin-left: 50px;
+
+        display: inline-block;
+    }
+    .lol{
+        background-image: url(../multimedia/lolfoto.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        height: 300px;
+        width: 300px;
+
+        margin-top: -30px;
+        margin-left: 50px;
+
+        display: inline-block;
+    }
+    .fallguys{
+        background-image: url(../multimedia/FallGuys.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        height: 300px;
+        width: 300px;
+
+        margin-top: -30px;
+        margin-left: 50px;
+
+        display: inline-block;
+    }
+    .multiversus{
+        background-image: url(../multimedia/multiversus.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        height: 300px;
+        width: 300px;
+
+        margin-top: -30px;
+        margin-left: 50px;
+
+        display: inline-block;
+    }
+}
+

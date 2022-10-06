@@ -1,0 +1,168 @@
+body{
+    background-image: url(../multimedia/fondogamer.jpg);
+    font-family: 'Bebas Neue', cursive;;
+}
+
+.tituloprox{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    background-color: black;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    border: solid 5px #0ff;
+}
+
+.subtituloprox{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+    background-color: black;
+    border: solid 1px rgb(191, 0, 255);
+
+    transition: all 2s;
+}
+
+.subtituloprox:hover{
+    font-size: 50px;
+    border: solid 2px #0ff;
+}
+
+.img-fluid{
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+
+.accordion-button{
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+
+.accordion-item {
+    color: white;
+    background-color:black;
+    border: solid 1px rgb(191, 0, 255);
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-btn-focus-box-shadow: rgb(191, 0 ,255);
+    --bs-accordion-btn-active-icon: black;
+    --bs-accordion-btn-icon: white;
+}
+
+.body_prox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"main main"
+                        "footer footer";
+}
+
+.body_prox > main {
+    grid-area: main;
+}
+
+.body_prox > footer {
+    grid-area: footer;
+}
+
+.derechos{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width:500px){
+    .body_prox{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.25fr 0.25fr;
+    }
+
+    .tituloprox{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        background-color: black;
+    
+        border: solid 5px #0ff;
+    }
+    
+    .subtituloprox{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+
+        margin-right: 50px;
+        margin-left: 50px;
+    
+        background-color: black;
+        border: solid 1px rgb(191, 0, 255);
+    }
+
+    .gta6{
+        background-image: url(../multimedia/gta6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        height: 200px;
+        width: 200px;
+
+        align-items: center;
+
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .infogta6{
+        color: white;
+        font-size: 15px;
+
+        text-align: center;
+
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    .jedi{
+        background-image: url(../multimedia/jedi\ 2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        height: 200px;
+        width: 200px;
+    
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .infojedi{
+        color: white;
+        font-size: 15px;
+    
+        text-align: center;
+
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+

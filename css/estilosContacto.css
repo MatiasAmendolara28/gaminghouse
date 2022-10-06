@@ -1,0 +1,202 @@
+body{
+    background-image: url(../multimedia/fondogamer.jpg);
+    --bs-body-color: white;
+    --bs-body-font-family: 'Bebas Neue', cursive;
+}
+
+.titulocontacto{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    background-color: black;
+
+    border: solid 5px rgb(191, 0, 255);
+}
+
+.subtitulocontacto{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+    background-color: black;
+    border: solid 2px #0ff;
+
+    transition: all 3s;
+}
+
+.subtitulocontacto:hover{
+    font-size: 50px;
+    border: solid 3px #0ff;
+}
+
+.body_form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-areas:"form"
+                        "footer footer";
+}
+
+.body_form > form {
+    grid-area: form;
+}
+
+.body_form > footer {
+    grid-area: footer;
+}
+
+.name1{
+    color: white;
+    font-size: 30px;
+}
+
+.name2{
+    display: block;
+}
+
+.mail1{
+    color: white;
+    font-size: 30px;
+}
+
+.mail2{
+    display: block;
+}
+
+.pass1{
+    color: white;
+    font-size: 30px;
+}
+
+.pass2{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.campos{
+    color: white;
+    font-size: 30px;
+}
+
+.derechos{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:500px){
+    .body_form{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .subtitulocontacto{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    
+        margin-right: 100px;
+        margin-left: 100px;
+    
+        background-color: black;
+        border: solid 2px #0ff;
+    }
+    .derechos{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 200px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

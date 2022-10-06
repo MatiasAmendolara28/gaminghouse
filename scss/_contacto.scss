@@ -1,0 +1,47 @@
+/* contacto */
+body{
+    background-image: url(../multimedia/fondogamer.jpg);
+    --bs-body-color: white;
+    --bs-body-font-family: 'Bebas Neue', cursive;
+}
+.titulocontacto{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    background-color: black;
+
+    border: solid 5px rgb(191, 0, 255);
+}
+.subtitulocontacto{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+    background-color: black;
+    border: solid 2px #0ff;
+
+    transition: all 3s;
+}
+.subtitulocontacto:hover{
+    font-size: 50px;
+    border: solid 3px #0ff;
+}
+.derechos{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}

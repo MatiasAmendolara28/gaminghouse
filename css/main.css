@@ -1,0 +1,539 @@
+.caja-mapa {
+  background-color: black;
+  font-size: 35px;
+  align-items: center; }
+
+.btn-primary, .boton-secundario {
+  --bs-btn-color:white;
+  --bs-btn-bg: black;
+  --bs-btn-border-color: rgb(191, 0, 255);
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: rgb(191, 0, 255);
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: rgb(191, 0, 255);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: white;
+  --bs-btn-disabled-bg: black;
+  --bs-btn-disabled-border-color: rgb(191, 0, 255);
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px; }
+
+.boton-secundario {
+  --bs-btn-bg: grey;
+  --bs-btn-hover-bg: grey;
+  --bs-btn-active-bg: grey;
+  --bs-btn-disabled-bg: grey; }
+
+.imgs {
+  width: 100px;
+  height: 100px; }
+
+/* index */
+html {
+  font-size: 62,5%; }
+
+body {
+  background-image: url(../multimedia/fondogamer.jpg);
+  font-family: 'Bebas Neue', cursive; }
+
+.titulopagina {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 90px;
+  text-align: center;
+  background-color: black;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  border: solid 3px #bf01ff; }
+
+.subtitulofoto {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  background-color: black;
+  border: solid 1px #0ff; }
+
+.menuprincipal ul li {
+  font-family: 'Bebas Neue', cursive;
+  display: inline-block;
+  margin-top: 35px;
+  background-color: black;
+  border: solid 2px #0ff;
+  align-items: center;
+  margin-right: 75px;
+  padding: 45px;
+  font-size: 25px; }
+
+.bg-negro {
+  background-color: black;
+  border: solid 1px #0ff; }
+
+.navbar-nav {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  --bs-navbar-hover-color: rgb(191, 0, 255); }
+  .navbar-nav .nav-link {
+    --bs-nav-link-color: white; }
+  .navbar-nav .nav-link.active {
+    --bs-navbar-active-color: white; }
+
+.redessociales {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  background-color: black;
+  border: solid 1px #0ff; }
+
+.insta {
+  background-image: url(../multimedia/logo5.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+  margin-left: 436px;
+  width: 250px;
+  height: 250px; }
+
+.copyright {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center; }
+
+.derechos {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+  font-size: 15px; }
+
+/* juegos */
+body {
+  background-image: url(../multimedia/fondogamer.jpg);
+  font-family: 'Bebas Neue', cursive; }
+
+.titulojuegos {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  background-color: black;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: solid 5px #0ff; }
+
+.btn-primary, .boton-secundario {
+  --bs-btn-color:white;
+  --bs-btn-bg: black;
+  --bs-btn-border-color: rgb(191, 0, 255);
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: rgb(191, 0, 255);
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: rgb(191, 0, 255);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: white;
+  --bs-btn-disabled-bg: black;
+  --bs-btn-disabled-border-color: rgb(191, 0, 255);
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px; }
+
+.dropdown-menu {
+  --bs-dropdown-color: white;
+  --bs-dropdown-bg: black;
+  --bs-dropdown-link-color: white;
+  --bs-dropdown-link-hover-color: #1e2125;
+  --bs-dropdown-link-hover-bg: white;
+  --bs-dropdown-link-active-color: black;
+  --bs-dropdown-link-active-bg: #0ff; }
+
+.subtitulojuegos {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background-color: black;
+  border: solid 1px #0ff; }
+
+.card {
+  --bs-card-bg: black;
+  --bs-card-color: white;
+  margin-left: 80px;
+  margin-bottom: 50px; }
+
+.juegos-de-pago {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background-color: black;
+  border: solid 1px #bf00ff; }
+
+.derechos {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px; }
+
+/* proximamente */
+body {
+  background-image: url(../multimedia/fondogamer.jpg);
+  font-family: 'Bebas Neue', cursive; }
+
+.tituloprox {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  background-color: black;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: solid 5px #0ff; }
+
+.subtituloprox {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  background-color: black;
+  border: solid 1px #bf00ff;
+  transition: all 2s; }
+
+.subtituloprox:hover {
+  font-size: 50px;
+  border: solid 2px #0ff; }
+
+.img-fluid {
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 250px; }
+
+.accordion-button {
+  color: white;
+  text-align: center;
+  background-color: black; }
+
+.accordion-item {
+  color: white;
+  background-color: black;
+  border: solid 1px #bf00ff;
+  --bs-accordion-active-color: black;
+  --bs-accordion-active-bg: white;
+  --bs-accordion-btn-focus-box-shadow: rgb(191, 0 ,255);
+  --bs-accordion-btn-active-icon: black;
+  --bs-accordion-btn-icon: white; }
+
+.derechos {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  font-size: 15px; }
+
+/* contacto */
+body {
+  background-image: url(../multimedia/fondogamer.jpg);
+  --bs-body-color: white;
+  --bs-body-font-family: 'Bebas Neue', cursive; }
+
+.titulocontacto {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: black;
+  border: solid 5px #bf00ff; }
+
+.subtitulocontacto {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  background-color: black;
+  border: solid 2px #0ff;
+  transition: all 3s; }
+
+.subtitulocontacto:hover {
+  font-size: 50px;
+  border: solid 3px #0ff; }
+
+.derechos {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px; }
+
+/* tienda */
+body {
+  background-image: url(../multimedia/fondogamer.jpg);
+  font-family: 'Bebas Neue', cursive; }
+
+.titulotienda {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  background-color: black;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: solid 5px #0ff; }
+
+.subtitulotienda {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: black;
+  border: solid 1px #bf00ff;
+  transition: all 2s; }
+
+.subtitulotienda:hover {
+  font-size: 50px;
+  border: solid 2px #0ff; }
+
+.card {
+  --bs-card-bg: black;
+  --bs-card-color: white;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  align-items: center; }
+
+.btn-primary, .boton-secundario {
+  --bs-btn-color:white;
+  --bs-btn-bg: black;
+  --bs-btn-border-color: rgb(191, 0, 255);
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: #0ff;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: rgb(191, 0, 255);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: white;
+  --bs-btn-disabled-bg: black;
+  --bs-btn-disabled-border-color: rgb(191, 0, 255); }
+
+.derechos {
+  color: white;
+  text-align: center;
+  font-size: 15px; }
+
+/* index */
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url(../multimedia/fondogamer.jpg);
+    font-family: 'Bebas Neue', cursive; }
+  .menuprincipal ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 75px;
+    margin-left: 35px;
+    padding: 35px;
+    font-size: 20px; }
+  .subtitulofoto {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 30px;
+    background-color: black;
+    border: solid 1px #0ff; }
+  .insta {
+    background-image: url(../multimedia/logo5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 115px;
+    width: 250px;
+    height: 250px; }
+  .redessociales {
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-right: 35px;
+    margin-left: 35px;
+    text-align: center;
+    background-color: black;
+    border: solid 1px #0ff; }
+  .bg-negro {
+    background-color: black;
+    border: solid 1px #0ff; }
+  .navbar-nav {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    --bs-navbar-hover-color: #0ff; }
+    .navbar-nav .nav-link {
+      --bs-nav-link-color: white; }
+    .navbar-nav .navbar-nav .nav-link.active, .navbar-nav .navbar-nav .show > .nav-link {
+      --bs-navbar-active-color: white; } }
+
+/* juegos */
+@media screen and (max-width: 500px) {
+  .body_juegos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr; }
+  .titulojuegos {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid 5px #0ff; }
+  .btn-primary, .boton-secundario {
+    --bs-btn-color:white;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: rgb(191, 0, 255);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: rgb(191, 0, 255);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: rgb(191, 0, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: black;
+    --bs-btn-disabled-border-color: rgb(191, 0, 255);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px; }
+  .dropdown-menu {
+    --bs-dropdown-color: white;
+    --bs-dropdown-bg: black;
+    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-hover-color: #1e2125;
+    --bs-dropdown-link-hover-bg: white;
+    --bs-dropdown-link-active-color: black;
+    --bs-dropdown-link-active-bg: #0ff; }
+  .subtitulojuegos {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    border: solid 1px #bf00ff; }
+  .card {
+    --bs-card-bg: black;
+    --bs-card-color: white;
+    margin-left: 80px;
+    margin-bottom: 50px; }
+  .juegos-de-pago {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: black;
+    border: solid 1px #bf00ff; } }
+
+/* proximamente */
+@media screen and (max-width: 500px) {
+  .body_prox {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr; }
+  .tituloprox {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    border: solid 5px #0ff; }
+  .subtituloprox {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: black;
+    border: solid 1px #bf00ff; }
+  .img-fluid {
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 250px; }
+  .accordion-button {
+    color: white;
+    text-align: center;
+    background-color: black; }
+  .accordion-item {
+    color: white;
+    background-color: black;
+    border: solid 1px #bf00ff;
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-btn-focus-box-shadow: rgb(191, 0 ,255);
+    --bs-accordion-btn-active-icon: black;
+    --bs-accordion-btn-icon: white; } }
+
+/* contacto */
+@media screen and (max-width: 500px) {
+  .body_form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+  .subtitulocontacto {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: black;
+    border: solid 2px #0ff; }
+  .derechos {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 200px; } }
+
+/* tienda */
+@media screen and (max-width: 500px) {
+  .body_tienda {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+  .derechos {
+    color: white;
+    text-align: center;
+    font-size: 15px; } }
