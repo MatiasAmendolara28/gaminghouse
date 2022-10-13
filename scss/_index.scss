@@ -76,18 +76,24 @@ body {
     background-color: black;
     border: solid 1px #0ff;
 }
-.insta{
-    background-image: url(../multimedia/logo5.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 
-    margin-top: 20px;
-    margin-left: 436px;
-
-    width: 250px;
-    height: 250px;
+.float-center-1{
+    width: 70px;
 }
+.float-center-2{
+    width: 60px;
+}
+.float-center-3{
+    width: 70px;
+}
+
+.logos{
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .copyright{
     font-family: 'Bebas Neue', cursive;
     color: white;
